@@ -2,7 +2,7 @@
 from random import randint
 print("WELCOME TO THE GAME!")
 
-print('\nHere are the gaming instructions\n1. There will be two players\n2. Each player will enter a number from 1 to 9 representing the following positions:\n\t1\t2\t3\n\t4\t5\t6\n\t7\t8\t9\n3.One player will insert "X" in their desired position and the other player will insert "O"\n4.To win, the "X" or the "O" need to form a line horizontally, vertically or diagonally\n5.To win, the "X" or the "O" need to form a line horizontally, vertically or diagonally')
+print('\nHere are the gaming instructions\n1. The game is you vs computer\n2. You will enter a number from 1 to 9 representing the following positions:\n\t1\t2\t3\n\t4\t5\t6\n\t7\t8\t9\n3.You will insert your "X" or "O" in your desired position followed by the computer\n4.To win, the "X" or the "O" need to form a line horizontally, vertically or diagonally\n5.To win, the "X" or the "O" need to form a line horizontally, vertically or diagonally')
 
 print("\nGOODLUCK.")
 
