@@ -13,7 +13,7 @@ from random import randint
 count=1
 template_position="\n\t1\t2\t3\n\t4\t5\t6\n\t7\t8\t9"
 game_finish = False
-while count<=9 :
+while count<9 :
     if user_selection=="X" and count%2!=0:
         print("YOUR TURN")
         pos=input("Enter position ")
@@ -76,5 +76,6 @@ while count<=9 :
         game_finish = True
         break
     
-if count == 9 and game_finish == False:
-    print("GAME TIE!")
+    if count == 9 and game_finish == False:
+        print("GAME TIE!")
+    
